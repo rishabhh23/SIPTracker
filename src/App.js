@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import { useState } from "react";
 import "./App.css";
 import "../src/constants/mock";
 import {
@@ -6,14 +7,12 @@ import {
   mockHistoricalData,
   mockSearchResults,
 } from "../src/constants/mock";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>SIPTRACKER</p>
-      </header>
+    <div>
+      <Dashboard />
     </div>
   );
 }
