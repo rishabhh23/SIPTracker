@@ -10,11 +10,7 @@ import {
 import Dashboard from "./components/Dashboard";
 
 function App() {
-  return (
-    <div>
-      <Dashboard />
-    </div>
-  );
+  return <Dashboard />;
 }
 
 export default App;
