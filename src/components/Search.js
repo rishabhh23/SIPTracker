@@ -21,7 +21,7 @@ const Search = () => {
 
   return (
     <div
-      className={`flex items-center my-4 border-2 rounded relative z-50 w-96 bg-white border-neutral ${
+      className={`flex items-center my-4 border-2 rounded-md relative z-50 w-96 ${
         darkMode ? "bg-gray-900 border-gray-800" : "bg-white border-neutral-200"
       }`}
     >
@@ -29,7 +29,7 @@ const Search = () => {
         type="text"
         value={input}
         className={`w-full px-4 py-2 focus:outline-none rounded-md ${
-          darkMode ? "bg-gray-900 border border-white" : null
+          darkMode ? "bg-gray-900 border-2 border-indigo-300" : null
         }`}
         placeholder="Search stock..."
         onChange={(event) => {
@@ -44,7 +44,11 @@ const Search = () => {
 
       {input && (
         <button onClick={clear}>
-          <XMarkIcon className="h-4 w-4 fill-gray-500" />
+          <XMarkIcon
+            className={`h-4 w-4 fill-gray-500 ${
+              darkMode ? "fill-indigo-300" : null
+            }`}
+          />
         </button>
       )}
 
