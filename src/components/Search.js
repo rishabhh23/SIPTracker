@@ -3,6 +3,8 @@ import ThemeContext from "../context/ThemeContext";
 import { searchSymbol } from "../api/StockApi";
 import SearchResults from "./SearchResults";
 import { XMarkIcon, MagnifyingGlassIcon } from "@heroicons/react/24/solid";
+import StockNameList from "./StockNameList";
+import { names } from "../constants/stocknames";
 
 const Search = () => {
   const { darkMode } = useContext(ThemeContext);
@@ -63,6 +65,8 @@ const Search = () => {
       {input && bestMatches.length > 0 ? (
         <SearchResults results={bestMatches} />
       ) : null}
+
+      {/* <StockNameList results={names} /> */}
     </div>
   );
 };
