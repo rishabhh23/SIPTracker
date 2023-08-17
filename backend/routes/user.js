@@ -4,7 +4,7 @@ const express = require("express");
 const { loginUser, signupUser } = require("../controllers/userController");
 const { sign } = require("crypto");
 
-const router = express.router();
+const router = express.Router();
 
 //login router
 router.post("/login", loginUser);
