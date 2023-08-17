@@ -7,6 +7,9 @@ const userRoutes = require("./routes/user");
 //express app
 const app = express();
 
+//middleware
+app.use(express.json());
+
 //routes
 app.use("/api/user", userRoutes);
 
@@ -14,6 +17,14 @@ app.get("/", (req, res) => {
   res.send("Hello rishabh!");
 });
 
-app.listen(4000, () => {
-  console.log(`Server is running on port 4000`);
-});
+//connect to mongodb
+mongoose
+  .connect("mongodb://localhost:27017/SIPTracker")
+  .then(() => {
+    app.listen(4000, () => {
+      console.log("Connected to port 4000");
+    });
+  })
+  .catch((error) => {
+    console.log(error);
+  });
