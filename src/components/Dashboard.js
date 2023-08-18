@@ -5,6 +5,7 @@ import React, {
   useDeferredValue,
 } from "react";
 import Card from "./Card";
+import Navbar from "./Navbar";
 import Header from "./Header";
 import { mockCompanyDetails } from "../constants/mock";
 import Details from "./Details";
@@ -46,8 +47,10 @@ const Dashboard = () => {
   }, [stockSymbol]);
 
   return (
+    // <div className="relative">
+    //   <Navbar />
     <div
-      className={`h-screen grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-8 md:grid-rows-7 xl:grid-rows-5 auto-rows-fr gap-6 p-10 font-quicksand ${
+      className={`h-screen grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-9 md:grid-rows-8 xl:grid-rows-6 auto-rows-fr gap-6 p-10 font-quicksand ${
         darkMode ? "bg-gray-900 text-gray-300" : "bg-neutral-100"
       }`}
     >
@@ -70,6 +73,7 @@ const Dashboard = () => {
         <Details details={stockDetails} />
       </div>
     </div>
+    // </div>
   );
 };
 
