@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { useSignup } from "../hooks/useSignup";
-import { useLogout } from "../hooks/useLogout";
+import { Link } from "react-router-dom";
+import Login from "./Login";
+import Logout from "./Logout";
+import Dashboard from "./Dashboard";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { signup, error, isLoading } = useSignup();
-  const { logout } = useLogout();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,19 +17,10 @@ const Signup = () => {
     await signup(email, password);
   };
 
-  const handleClick = () => {
-    logout();
-  };
-
   return (
     <div>
-      <div className="text-right">
-        <button
-          className="m-6 bg-red-500  text-white font-semibold py-2 px-4 rounded"
-          onClick={handleClick}
-        >
-          Logout
-        </button>
+      <div>
+        <Logout />
       </div>
       <form
         className="ml-5 p-5 rounded-md border-2 border-gray-300 flex flex-col items-center border-2"

@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import { useLogin } from "../hooks/useLogin";
-import { useLogout } from "../hooks/useLogout";
+import { Link } from "react-router-dom";
+import Logout from "./Logout";
 
 const Login = () => {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
   const { login, error, isLoading } = useLogin();
-  const { logout } = useLogout();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,19 +16,10 @@ const Login = () => {
     await login(email, password);
   };
 
-  const handleClick = () => {
-    logout();
-  };
-
   return (
     <div>
-      <div className="text-right">
-        <button
-          className="m-6 bg-red-500  text-white font-semibold py-2 px-4 rounded"
-          onClick={handleClick}
-        >
-          Logout
-        </button>
+      <div>
+        <Logout />
       </div>
       <form
         className="m-5 p-5 rounded-md border-2 border-gray-300 flex flex-col items-center border-2 "
