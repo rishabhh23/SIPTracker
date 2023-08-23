@@ -69,7 +69,7 @@ userSchema.statics.login = async function (email, password) {
     throw Error("Passwords do not match");
   }
 
-  return user;
+  return exists;
 };
 
 module.exports = mongoose.model("User", userSchema);

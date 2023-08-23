@@ -19,9 +19,9 @@ app.get("/", (req, res) => {
   res.send("Hello rishabh!");
 });
 
-//connect to mongodb
+// connect to mongodb
 mongoose
-  .connect("mongodb://localhost:27017/SIPTracker")
+  .connect("mongodb://127.0.0.1/SIPTracker")
   .then(() => {
     app.listen(4000, () => {
       console.log("Connected to port 4000");
