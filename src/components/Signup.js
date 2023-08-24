@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSignup } from "../hooks/useSignup";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Login from "./Login";
 import Logout from "./Logout";
 import Dashboard from "./Dashboard";
@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(email, password);
-    localStorage.setItem("user", email);
+    // localStorage.setItem("user", email);
     await signup(email, password);
   };
 

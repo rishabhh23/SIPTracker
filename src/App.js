@@ -16,8 +16,8 @@ function App() {
       <ThemeContext.Provider value={{ darkMode, setDarkMode }}>
         <StockContext.Provider value={{ stockSymbol, setStockSymbol }}>
           <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
           </Routes>
         </StockContext.Provider>

@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import { useLogin } from "../hooks/useLogin";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logout from "./Logout";
+import Dashboard from "./Dashboard";
 
 const Login = () => {
   const [password, setPassword] = useState("");
@@ -12,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(email, password);
-    localStorage.setItem("user", email);
+    // localStorage.setItem("user", email);
     await login(email, password);
   };
 
@@ -52,7 +53,10 @@ const Login = () => {
         >
           Login
         </button>
-        {error && <div>{error}</div>}
+        {error && <div>{error}!</div>}
+        <div className="my-4 text-xl italic bold">
+          New user? Please Create an account using Signup.
+        </div>
       </form>
     </div>
   );
