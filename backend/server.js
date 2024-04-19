@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 
 // connect to mongodb
 mongoose
-  .connect("mongodb://127.0.0.1/SIPTracker")
+  .connect("mongodb+srv://rish23tech:FLJs0Ru2LnK5sIsS@siptracker.tih8nn2.mongodb.net/")
   .then(() => {
     app.listen(4000, () => {
       console.log("Connected to port 4000");

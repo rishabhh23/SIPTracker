@@ -18,19 +18,19 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="h-screen bg-gray-900 text-white">
       <div>
         <Logout />
       </div>
       <form
-        className="m-5 p-5 rounded-md border-2 border-gray-300 flex flex-col items-center border-2 "
+        className="m-5 p-5 bg-gray-900 text-white rounded-lg border-2 border-blue-300 flex flex-col items-center border-2 "
         onSubmit={handleSubmit}
       >
         <h3 className="text-5xl m-6">Login</h3>
         <div className="">
           <label>Email:</label>
           <input
-            className="border-1 p-1 border-neutral-600 ml-7 rounded-md"
+            className="border-1 p-1 text-black border-blue-600 ml-7 rounded-md"
             type="email"
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter Email..."
@@ -40,7 +40,7 @@ const Login = () => {
         <div className="">
           <label>Password:</label>
           <input
-            className="border-1 p-1 border-neutral-600 m-5 rounded-md"
+            className="border-2 p-1 text-black border-blue-600 m-5 rounded-md"
             type="password"
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter Password..."

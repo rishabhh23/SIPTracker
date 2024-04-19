@@ -22,13 +22,17 @@ const Logout = () => {
       </div> */}
       <div className="flex justify-end">
         {!user && (
-          <div className="m-6 py-2">
-            <Link to="/" className="m-6 py-2">
-              Login
-            </Link>
-            <Link to="/signup" className="m-6 py-2">
-              Signup
-            </Link>
+          <div className="m-2 p-2">
+            <button className="m-1 bg-red-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+              <Link to="/" className="m-6 py-2">
+                Login
+              </Link>
+            </button>
+            <button className="m-1 bg-red-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+              <Link to="/signup" className="m-6 py-2">
+                Signup
+              </Link>
+            </button>
           </div>
         )}
         {user && (
