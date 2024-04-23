@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useSignup } from "../hooks/useSignup";
-import { Link, useNavigate } from "react-router-dom";
-import Login from "./Login";
+// import { Link, useNavigate } from "react-router-dom";
+// import Login from "./Login";
 import Logout from "./Logout";
-import Dashboard from "./Dashboard";
+// import Dashboard from "./Dashboard";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -23,7 +23,7 @@ const Signup = () => {
         <Logout />
       </div>
       <form
-        className="m-5 p-5 rounded-md border-2 border-blue-300 flex flex-col items-center border-2"
+        className="m-5 p-5 rounded-md border-2 border-blue-300npm  flex flex-col items-center border-2"
         onSubmit={handleSubmit}
       >
         <h3 className="text-5xl m-6">Signup</h3>
