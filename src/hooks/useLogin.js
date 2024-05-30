@@ -19,10 +19,7 @@ export const useLogin = () => {
     //   headers: { "Content-Type": "application/json" },
     //   body: JSON.stringify({ email, password }),
     // });
-<<<<<<< HEAD
-
-=======
->>>>>>> 368a6f029a48327516af8f6b428230ad4b4a7e5d
+    
     const response = await fetch("https://siptracker-backend-o2st.onrender.com/api/user/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
