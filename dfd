@@ -1,0 +1,168 @@
+[33mcommit 3ac72beb89adc25d8fcaa25de8caa01b70a545b8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Wed Apr 24 20:33:30 2024 +0530
+
+    added start: nodemon in backend
+
+[33mcommit cb9b33c6d209f0b6d3a76a3f6efdcf67bbd16f07[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Wed Apr 24 20:19:44 2024 +0530
+
+    added build option in backend
+
+[33mcommit ebdee005d356d96f4c9fca39abb43aad1c063ffb[m
+Author: Rishabh Sharma <90113579+rishabhh23@users.noreply.github.com>
+Date:   Tue Apr 23 19:44:09 2024 +0530
+
+    Update vercel.json version to 2
+
+[33mcommit a3eb61029301f32369bdc2727cb33eeac4640478[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Tue Apr 23 19:37:48 2024 +0530
+
+    staged for deploy
+
+[33mcommit a096f42c3398809ff495f75f817a0a825413dc02[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Fri Apr 19 13:05:25 2024 +0530
+
+    updated login and signup bg
+
+[33mcommit 5c2dd91a2be2eb3a093564b91aab7d143c5533fa[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Thu Aug 24 15:37:28 2023 +0530
+
+    Configured login as landing page
+
+[33mcommit 6f4206a35ee133660bd35db52e4e988b7c654d8e[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Thu Aug 24 00:23:40 2023 +0530
+
+    User stays logged in after refresh
+
+[33mcommit bc69062a8a45735333ed89eb922e61e304da6557[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Wed Aug 23 15:25:24 2023 +0530
+
+    Fully added login and signup using hooks
+
+[33mcommit ade9a2715b0907a981a08463c611c77ea05336f1[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Mon Aug 21 15:41:25 2023 +0530
+
+    FIXES:Error display on signup
+
+[33mcommit 0beb738feb9cf110a0bbb3e19652bfb07a30a159[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Sun Aug 20 20:05:05 2023 +0530
+
+    Added sign in functionality
+
+[33mcommit d7f80604bb7d1aa24f34b2fde7342b79821346e7[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Fri Aug 18 23:54:15 2023 +0530
+
+    Added login and signup pages and routes
+
+[33mcommit 292d2ce675e9257ab4e194e7d2472d08411eb708[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Fri Aug 18 20:26:42 2023 +0530
+
+    Added AuthContext to frontend
+
+[33mcommit 4b9d5c7090017ee2d4528ab792994ecbe5e38624[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Fri Aug 18 15:20:12 2023 +0530
+
+    Added JWT auth
+
+[33mcommit b1c28d17c4b24bc58b3dcf747fc91f7537fb391d[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Thu Aug 17 16:25:34 2023 +0530
+
+    Resolved errors
+
+[33mcommit 0a2ad0c6d7a05ca96fe1730d16c833a1b78fd5d1[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Thu Aug 17 15:11:40 2023 +0530
+
+    Added backend package
+
+[33mcommit a2e54e3d4bf655c70c7c03659004837db4046b58[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Mon Aug 14 16:20:53 2023 +0530
+
+    Added backend setup
+
+[33mcommit d9a0ecca039a8674a17ae62b49f33e5875cecbbf[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Thu Aug 10 00:32:54 2023 +0530
+
+    Completed app, added useEffects and USD to INR in overview
+
+[33mcommit bb25173b5c650636745306c5ec6a888885ace309[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Wed Aug 9 14:33:16 2023 +0530
+
+    Resolved errors in Dark Mode
+
+[33mcommit d7ca50277f4a1d94fa6a875295348a06c69914e5[m
+Merge: f7812aa 986fccb
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Mon Aug 7 23:15:53 2023 +0530
+
+    Merge branch 'master' of https://github.com/rishabhh23/SIPTracker
+
+[33mcommit f7812aa4c9dcf08033ea8fdc02ce21778a061fee[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Mon Aug 7 23:13:06 2023 +0530
+
+    Added Dark Mode
+
+[33mcommit 986fccbaa53f5d6752db9a57b4c41a7e8170b111[m
+Author: Rishabh Sharma <90113579+rishabhh23@users.noreply.github.com>
+Date:   Sun Aug 6 20:35:50 2023 +0530
+
+    Update README.md
+
+[33mcommit b2f56d1b14efcfc6a76eaf306230be58a75d9c6a[m
+Author: Rishabh Sharma <rish23.tech@gmail.com>
+Date:   Sun Aug 6 20:33:12 2023 +0530
+
+    Added Chart and ChartFilter
+
+[33mcommit 4a1015dc2a190b95cf298d8d2717e99e5e26577a[m
+Author: Rishabh Sharma <rish23.sharma@gmail.com>
+Date:   Sun Aug 6 00:46:30 2023 +0530
+
+    Added ThemeIcon Details and Overview Component:
+
+[33mcommit efa2bbbe2aac78e73d8eb232bbb169986271ff33[m
+Author: Rishabh Sharma <rish23.sharma@gmail.com>
+Date:   Sat Aug 5 21:11:42 2023 +0530
+
+    Added SearchBar
+
+[33mcommit 84ecb6658a8d0628aa7c1fd4cc8142d6b8f6bb83[m
+Author: Rishabh Sharma <rish23.sharma@gmail.com>
+Date:   Fri Aug 4 23:42:42 2023 +0530
+
+    Added Seatch component
+
+[33mcommit 0aa31c566be5f9aab8427c4c50a346af147be61b[m
+Author: Rishabh Sharma <rish23.sharma@gmail.com>
+Date:   Fri Aug 4 18:06:41 2023 +0530
+
+    Added card and dashboard components
+
+[33mcommit e2a318735e5617d2713ecfe7dad9dd73bad866a2[m
+Author: Rishabh Sharma <rish23.sharma@gmail.com>
+Date:   Thu Aug 3 12:44:03 2023 +0530
+
+    Setup done
+
+[33mcommit cc1daf9c58dd846a7cc782864724d8b01878a469[m
+Author: Rishabh Sharma <rish23.sharma@gmail.com>
+Date:   Tue Aug 1 20:21:46 2023 +0530
+
+    Initial setup of the app

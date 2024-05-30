@@ -9,10 +9,13 @@ const cors = require("cors");
 const app = express();
 
 //middleware
+// app.use(express.json());
+// app.use(cors({
+//   origin: ['https://siptracker.vercel.app']
+// }));
+
 app.use(express.json());
-app.use(cors({
-  origin: ['https://siptracker.vercel.app']
-}));
+app.use(cors());
 
 //routes
 app.use("/api/user", userRoutes);
