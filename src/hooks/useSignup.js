@@ -23,7 +23,11 @@ export const useSignup = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
     });
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 368a6f029a48327516af8f6b428230ad4b4a7e5d
     const json = await response.json();
 
     if (!response.ok) {
